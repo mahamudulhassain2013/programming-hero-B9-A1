@@ -1,57 +1,87 @@
-
 /* common shared style */
 
-.body{
+.body {
   .merriweather-black {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: normal;
   }
-  
+
   .merriweather-bold {
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: normal;
   }
-  
+
   .merriweather-regular {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
   }
-  
+
 }
+
 /* main section style */
 
 .banner-section {
-    max-width: 1320px;
-    height: 600px;
-    /* border-radius: 10px; */
-    margin: 50px 130px;
-    padding: 130px 250px;
-    background-image: url('../images/Banner\ Image.png');
-   
+  max-width: 1320px;
+  height: 600px;
+  /* border-radius: 10px; */
+  margin: 50px 130px;
+  padding: 130px 250px;
+  background-image: url('../images/Banner\ Image.png');
+
 
 }
 
 .greeting-message {
-    color: #FFF;
-    text-align: center;
-    font-size: 32px;
-    font-weight: 400;
-    font-weight: bold;
+  color: #FFF;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  font-weight: bold;
 
 
 }
 
 .banner-main-title {
-    color: #FFF;
-    text-align: center;
-    font-style: normal;
-    font-size: 72px;
-    font-weight: 900;
-    font-weight: bold;
-   
+  color: #FFF;
+  text-align: center;
+  font-style: normal;
+  font-size: 72px;
+  font-weight: 900;
+  font-weight: bold;
+
 
 }
-background-image: url('../images/Banner\ Image.png');
+
+/* 65% OFF section */
+
+.commision {
+  background: #FFF;
+  text-align: center;
+
+}
+
+.commision-title {
+  color: #F00;
+  font-size: 60px;
+  font-weight: 700;
+
+}
+
+.commision-description {
+  color: #F00;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+.commision-subtitle{
+  color: #070211;
+  font-size: 30px;
+  font-weight: 600;
+
+}
+.image{
+  max-width: 700px;
+}
