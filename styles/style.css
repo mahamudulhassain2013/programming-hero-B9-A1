@@ -1,24 +1,7 @@
 /* common shared style */
 
 .body {
-  /* .merriweather-black {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-
-  .merriweather-bold {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  .merriweather-regular {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
-  } */
-
+  font-family: "Merriweather", serif;
   max-width: 1350px;
 }
 
@@ -38,6 +21,9 @@
 
 
 }
+.banner-content{
+  padding: 40px 0px;
+}
 
 .greeting-message {
   color: #FFF;
@@ -45,6 +31,7 @@
   font-size: 32px;
   font-weight: 400;
   font-weight: bold;
+
 
 
 }
@@ -56,6 +43,7 @@
   font-size: 72px;
   font-weight: 900;
   font-weight: bold;
+
 
 
 }
