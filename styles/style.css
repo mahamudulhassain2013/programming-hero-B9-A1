@@ -1,7 +1,7 @@
 /* common shared style */
 
 .body {
-  .merriweather-black {
+  /* .merriweather-black {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: normal;
@@ -17,9 +17,12 @@
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
-  }
+  } */
 
+  max-width: 1350px;
 }
+
+
 
 /* main section style */
 
@@ -182,11 +185,13 @@
 /* subscribe section styles */
 
 .subscribe-section {
-  width: 1330px;
-  height: 616px;
+  width: 1340px;
+  height: 476px;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
   margin: 50px 0px 70px 110px;
+  padding-top: 120px;
+
 }
 
 .subscribe-content {
@@ -195,22 +200,24 @@
 }
 
 .input-button {
- text-align: center;
+  text-align: center;
  
 
 
-}
 
+}
 .input-field {
   width: 320px;
   height: 38px;
-  border-radius: 5px;
+  border-radius: 10px;
   background: #FFF;
   padding-left: 20px;
 
 
-  
-}
+
+} 
+
+
 
 .subscribe-btn {
   width: 150px;
@@ -218,5 +225,45 @@
   background: #F00;
   border-radius: 0px 50px 50px 0px;
   border: none;
+
+}
+
+/* footer section style */
+
+.footer {
+  width: 1340px;
+  height: 609px;
+  background: #070211;
+  margin: 40px 400px 5px 115px;
+}
+
+.information {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  padding: 110px 220px 30px 120px;
+
+}
+
+.hr {
+  height: 1 px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.social-link {
+  text-align: center;
+  padding: 30px;
+
+}
+
+.footer-content {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 110px 40px 110px;
 
 }
